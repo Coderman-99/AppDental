@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A90E2D79287BBF0E007128EF /* DataFiller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E2D78287BBF0E007128EF /* DataFiller.swift */; };
+		A94C0EB2286086EE009C2A5C /* AppDentalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C0EB1286086EE009C2A5C /* AppDentalApp.swift */; };
+		A94C0EB4286086EE009C2A5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C0EB3286086EE009C2A5C /* ContentView.swift */; };
+		A94C0EB6286086EF009C2A5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94C0EB5286086EF009C2A5C /* Assets.xcassets */; };
+		A94C0EB9286086EF009C2A5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94C0EB8286086EF009C2A5C /* Preview Assets.xcassets */; };
+		A94C0EBB286086EF009C2A5C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C0EBA286086EF009C2A5C /* Persistence.swift */; };
+		A95D2F0528684D3600468398 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D2F0428684D3600468398 /* SearchResult.swift */; };
+		A95D2F0728684D6900468398 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D2F0628684D6900468398 /* SearchBar.swift */; };
+		A95D2F092868523100468398 /* DisplayPatienData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D2F082868523100468398 /* DisplayPatienData.swift */; };
+		A95D2F1328686DF100468398 /* CustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D2F1228686DF100468398 /* CustomClass.swift */; };
+		A95D2F1D286973D100468398 /* AppDental.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A95D2F1B286973D100468398 /* AppDental.xcdatamodeld */; };
+		A9B3687A286B04C90020BB60 /* PatientData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B36878286B04C90020BB60 /* PatientData+CoreDataClass.swift */; };
+		A9B3687B286B04C90020BB60 /* PatientData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B36879286B04C90020BB60 /* PatientData+CoreDataProperties.swift */; };
+		A9E46D5A286232CB00980A01 /* Showdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E46D59286232CB00980A01 /* Showdata.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A90E2D78287BBF0E007128EF /* DataFiller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFiller.swift; sourceTree = "<group>"; };
+		A94C0EAE286086EE009C2A5C /* AppDental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDental.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94C0EB1286086EE009C2A5C /* AppDentalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDentalApp.swift; sourceTree = "<group>"; };
+		A94C0EB3286086EE009C2A5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A94C0EB5286086EF009C2A5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A94C0EB8286086EF009C2A5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A94C0EBA286086EF009C2A5C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A95D2F0428684D3600468398 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		A95D2F0628684D6900468398 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		A95D2F082868523100468398 /* DisplayPatienData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPatienData.swift; sourceTree = "<group>"; };
+		A95D2F1228686DF100468398 /* CustomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClass.swift; sourceTree = "<group>"; };
+		A95D2F1C286973D100468398 /* AppDental.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppDental.xcdatamodel; sourceTree = "<group>"; };
+		A9B36878286B04C90020BB60 /* PatientData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PatientData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		A9B36879286B04C90020BB60 /* PatientData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PatientData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		A9E46D59286232CB00980A01 /* Showdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Showdata.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94C0EAB286086EE009C2A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94C0EA5286086EE009C2A5C = {
+			isa = PBXGroup;
+			children = (
+				A94C0EB0286086EE009C2A5C /* AppDental */,
+				A94C0EAF286086EE009C2A5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A94C0EAF286086EE009C2A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94C0EAE286086EE009C2A5C /* AppDental.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94C0EB0286086EE009C2A5C /* AppDental */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADC695286AA9FB00B61737 /* Find */,
+				A95D2F0328684D1100468398 /* Search */,
+				A95D2F02286840D200468398 /* Core Data */,
+				A9E46D59286232CB00980A01 /* Showdata.swift */,
+				A94C0EB1286086EE009C2A5C /* AppDentalApp.swift */,
+				A94C0EB3286086EE009C2A5C /* ContentView.swift */,
+				A94C0EB5286086EF009C2A5C /* Assets.xcassets */,
+				A94C0EB7286086EF009C2A5C /* Preview Content */,
+			);
+			path = AppDental;
+			sourceTree = "<group>";
+		};
+		A94C0EB7286086EF009C2A5C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A94C0EB8286086EF009C2A5C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A95D2F02286840D200468398 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A9B36878286B04C90020BB60 /* PatientData+CoreDataClass.swift */,
+				A9B36879286B04C90020BB60 /* PatientData+CoreDataProperties.swift */,
+				A95D2F1B286973D100468398 /* AppDental.xcdatamodeld */,
+				A94C0EBA286086EF009C2A5C /* Persistence.swift */,
+				A95D2F1228686DF100468398 /* CustomClass.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		A95D2F0328684D1100468398 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				A95D2F0428684D3600468398 /* SearchResult.swift */,
+				A95D2F082868523100468398 /* DisplayPatienData.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		A9ADC695286AA9FB00B61737 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				A95D2F0628684D6900468398 /* SearchBar.swift */,
+				A90E2D78287BBF0E007128EF /* DataFiller.swift */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94C0EAD286086EE009C2A5C /* AppDental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94C0EC1286086EF009C2A5C /* Build configuration list for PBXNativeTarget "AppDental" */;
+			buildPhases = (
+				A94C0EAA286086EE009C2A5C /* Sources */,
+				A94C0EAB286086EE009C2A5C /* Frameworks */,
+				A94C0EAC286086EE009C2A5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppDental;
+			productName = AppDental;
+			productReference = A94C0EAE286086EE009C2A5C /* AppDental.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94C0EA6286086EE009C2A5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = NO;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A94C0EAD286086EE009C2A5C = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = A94C0EA9286086EE009C2A5C /* Build configuration list for PBXProject "AppDental" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"km-KH",
+			);
+			mainGroup = A94C0EA5286086EE009C2A5C;
+			productRefGroup = A94C0EAF286086EE009C2A5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A94C0EAD286086EE009C2A5C /* AppDental */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94C0EAC286086EE009C2A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94C0EB9286086EF009C2A5C /* Preview Assets.xcassets in Resources */,
+				A94C0EB6286086EF009C2A5C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94C0EAA286086EE009C2A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90E2D79287BBF0E007128EF /* DataFiller.swift in Sources */,
+				A95D2F0728684D6900468398 /* SearchBar.swift in Sources */,
+				A94C0EBB286086EF009C2A5C /* Persistence.swift in Sources */,
+				A94C0EB4286086EE009C2A5C /* ContentView.swift in Sources */,
+				A95D2F092868523100468398 /* DisplayPatienData.swift in Sources */,
+				A94C0EB2286086EE009C2A5C /* AppDentalApp.swift in Sources */,
+				A95D2F0528684D3600468398 /* SearchResult.swift in Sources */,
+				A9E46D5A286232CB00980A01 /* Showdata.swift in Sources */,
+				A9B3687A286B04C90020BB60 /* PatientData+CoreDataClass.swift in Sources */,
+				A95D2F1328686DF100468398 /* CustomClass.swift in Sources */,
+				A9B3687B286B04C90020BB60 /* PatientData+CoreDataProperties.swift in Sources */,
+				A95D2F1D286973D100468398 /* AppDental.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A94C0EBF286086EF009C2A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A94C0EC0286086EF009C2A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A94C0EC2286086EF009C2A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppDental/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = java.AppDental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A94C0EC3286086EF009C2A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppDental/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = java.AppDental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94C0EA9286086EE009C2A5C /* Build configuration list for PBXProject "AppDental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94C0EBF286086EF009C2A5C /* Debug */,
+				A94C0EC0286086EF009C2A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94C0EC1286086EF009C2A5C /* Build configuration list for PBXNativeTarget "AppDental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94C0EC2286086EF009C2A5C /* Debug */,
+				A94C0EC3286086EF009C2A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A95D2F1B286973D100468398 /* AppDental.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A95D2F1C286973D100468398 /* AppDental.xcdatamodel */,
+			);
+			currentVersion = A95D2F1C286973D100468398 /* AppDental.xcdatamodel */;
+			path = AppDental.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A94C0EA6286086EE009C2A5C /* Project object */;
+}
